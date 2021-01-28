@@ -1,8 +1,26 @@
 .App {
-  text-align: center;
+  background: aquamarine;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-nav{
+
+.tweet{
+  height: 300px;
+  width: 300px;
+  background: white;
+  border: 2px solid black;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+/* nav{
   display: flex;
   background: lightblue;
   justify-content: space-around;
@@ -15,8 +33,9 @@ nav{
   list-style: none;
   align-items: center;
   width: 40%;
-}
+} */
 
 /* Link{
   color: white;
 } */
+
