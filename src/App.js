@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
-import Nav from './Nav';
-import Movies from './Movies';
+import React from 'react';
+import Nav from './Component3/Nav';
+import Tweets from './Component3/Tweets';
 import './App.css';
 
 export default function App() {
     return (
-        <div className='App'>
-            <Nav/>
-            <Movies/>
+        <div className='home'>
+            <Nav />
+            <Tweets />
         </div>
     )
 }
